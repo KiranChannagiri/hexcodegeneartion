@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container 
+{
+    width: 700px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 20px;
+
+}
+.container  h1 
+{
+    font-size: 3rem;
+}
+input[type="submit"]
+{
+    display: block;
+   margin-inline: auto;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: rgb(255, 225, 0);
+   border: none;
+   font-size: 1.3rem;
+    cursor: pointer;
+}
+input[type="submit"]:focus 
+{
+    outline: none;
+   
+}
